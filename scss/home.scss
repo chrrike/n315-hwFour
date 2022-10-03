@@ -1,0 +1,39 @@
+header {
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  img {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: right;
+    color: black;
+    margin-top: -490px;
+    margin-right: 50px;
+  }
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-weight: 5px;
+}
+
+.gallery {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    height: 400px;
+    width: 400px;
+  }
+}

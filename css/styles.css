@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(229, 224, 224);
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+header {
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+}
+header img {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+header h1 {
+  text-align: right;
+  color: black;
+  margin-top: -490px;
+  margin-right: 50px;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-weight: 5px;
+}
+
+.gallery {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.gallery img {
+  height: 400px;
+  width: 400px;
+}
+
+.aboutContent {
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.aboutContent .abouttitle {
+  font-size: 35px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.aboutContent p {
+  width: 80%;
+  height: 200px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.form label {
+  display: inline-block;
+  width: 600px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(14, 86, 14);
+}
+.form input {
+  height: 50px;
+  margin-bottom: 25px;
+  width: 80%;
+  border-radius: 4px;
+  text-align: left;
+}
+.form input[type=text] {
+  padding-left: 10px;
+}
+.form input[type=submit] {
+  outline: 2px solid rgb(14, 86, 14);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
